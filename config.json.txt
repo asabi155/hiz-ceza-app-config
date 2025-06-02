@@ -1,0 +1,41 @@
+{
+    "CEZA_YILI": 2025,
+    "INDIRIM_ORANI": 0.25,
+    "HIZ_LIMITLERI_YERLESIM_YERI_ICI": {
+        "Otomobil": 50, "Minibüs": 50, "Otobüs": 50, "Panelvan": 50, "Kamyonet": 50, "Kamyon": 50,
+        "Çekici (Römorklu)": 50, "Çekici (Solo)": 50, "Motosiklet": 50,
+        "Tehlikeli Madde Tankeri": 30, "Tehlikeli Madde Yük Taşıyan": 30, "Traktör": 20
+    },
+    "HIZ_LIMITLERI_YERLESIM_YERI_DISI": {
+        "Otomobil_Bölünmüş Yol": 110, "Otomobil_Çift Yönlü Karayolu": 90,
+        "Otomobil_Otoyol (KGM İşletmesinde)": 130, "Otomobil_Otoyol (YİD - Özel Otoyol)": 140,
+        "Minibüs_Bölünmüş Yol": 90, "Minibüs_Çift Yönlü Karayolu": 80,
+        "Minibüs_Otoyol (KGM İşletmesinde)": 100, "Minibüs_Otoyol (YİD - Özel Otoyol)": 100,
+        "Otobüs_Bölünmüş Yol": 90, "Otobüs_Çift Yönlü Karayolu": 80,
+        "Otobüs_Otoyol (KGM İşletmesinde)": 100, "Otobüs_Otoyol (YİD - Özel Otoyol)": 100,
+        "Panelvan_Bölünmüş Yol": 100, "Panelvan_Çift Yönlü Karayolu": 85,
+        "Panelvan_Otoyol (KGM İşletmesinde)": 110, "Panelvan_Otoyol (YİD - Özel Otoyol)": 110,
+        "Kamyonet_Bölünmüş Yol": 85, "Kamyonet_Çift Yönlü Karayolu": 80,
+        "Kamyonet_Otoyol (KGM İşletmesinde)": 95, "Kamyonet_Otoyol (YİD - Özel Otoyol)": 95,
+        "Kamyon_Bölünmüş Yol": 85, "Kamyon_Çift Yönlü Karayolu": 80,
+        "Kamyon_Otoyol (KGM İşletmesinde)": 90, "Kamyon_Otoyol (YİD - Özel Otoyol)": 90,
+        "Çekici (Römorklu)_Bölünmüş Yol": 75, "Çekici (Römorklu)_Çift Yönlü Karayolu": 70,
+        "Çekici (Römorklu)_Otoyol (KGM İşletmesinde)": 80, "Çekici (Römorklu)_Otoyol (YİD - Özel Otoyol)": 80,
+        "Çekici (Solo)_Bölünmüş Yol": 85, "Çekici (Solo)_Çift Yönlü Karayolu": 80,
+        "Çekici (Solo)_Otoyol (KGM İşletmesinde)": 90, "Çekici (Solo)_Otoyol (YİD - Özel Otoyol)": 90,
+        "Motosiklet_Bölünmüş Yol": 90, "Motosiklet_Çift Yönlü Karayolu": 80,
+        "Motosiklet_Otoyol (KGM İşletmesinde)": 100, "Motosiklet_Otoyol (YİD - Özel Otoyol)": 100,
+        "Tehlikeli Madde Tankeri_Bölünmüş Yol": 50, "Tehlikeli Madde Tankeri_Çift Yönlü Karayolu": 50,
+        "Tehlikeli Madde Tankeri_Otoyol (KGM İşletmesinde)": 60, "Tehlikeli Madde Tankeri_Otoyol (YİD - Özel Otoyol)": 60,
+        "Tehlikeli Madde Yük Taşıyan_Bölünmüş Yol": 50, "Tehlikeli Madde Yük Taşıyan_Çift Yönlü Karayolu": 50,
+        "Tehlikeli Madde Yük Taşıyan_Otoyol (KGM İşletmesinde)": 60, "Tehlikeli Madde Yük Taşıyan_Otoyol (YİD - Özel Otoyol)": 60,
+        "Traktör_Bölünmüş Yol": 40, "Traktör_Çift Yönlü Karayolu": 30,
+        "Traktör_Otoyol (KGM İşletmesinde)": 0, "Traktör_Otoyol (YİD - Özel Otoyol)": 0
+    },
+    "CEZA_VE_SONUCLAR": {
+        "0-10% Tolerans": {"ceza_tl": 0, "madde": "Tolerans", "puan": 0, "ek_sonuc": "Tolerans dahilinde. Hız limitine uyulmuştur. Ceza yok.", "madde_aciklama": "Yasal hız limitinin %10'a kadar aşılması durumunda ceza uygulanmaz."},
+        "10-30%": {"ceza_tl": 2168, "madde": "51/2-a", "puan": 10, "ek_sonuc": "Para cezası ve 10 ceza puanı.", "madde_aciklama": "Karayolları Trafik Kanunu Madde 51/2-a: Hız sınırlarını %10'dan %30'a (dahil) kadar aşmak."},
+        "30-50%": {"ceza_tl": 4512, "madde": "51/2-b", "puan": 15, "ek_sonuc": "Para cezası ve 15 ceza puanı.", "madde_aciklama": "Karayolları Trafik Kanunu Madde 51/2-b: Hız sınırlarını %30'dan %50'ye (dahil) kadar aşmak."},
+        ">50%": {"ceza_tl": 9268, "madde": "51/2-c", "puan": 15, "ek_sonuc": "Para cezası, 15 ceza puanı ve sürücü belgesinin belirli sürelerle geri alınması (tekrar sayısına göre değişir).", "madde_aciklama": "Karayolları Trafik Kanunu Madde 51/2-c: Hız sınırlarını %50'den fazla aşmak."}
+    }
+}
